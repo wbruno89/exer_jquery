@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+header {
+    background-color: #666f88;
+    border-bottom: 16px solid #788199;
+    padding: 0px 0;
+    display: flexbox;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+
+header h1 {
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #000;
+}
+
+body {
+    background-color: #b5bac9;
+    height: 100vh;
+}
+
+form {
+    background-color: #788199;
+    padding: 16px;
+    display: none;
+}
+
+input,
+button {
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    border-top-right-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#btn-tarefa {
+    background-color: #788199;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 0px;
+}
+
+#btn-delete-tarefa {
+    background-color: #788199;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 0px;
+}
+
+#btn-enviar {
+    background-color: #018031 ;
+}
+
+#btn-enviar:hover {
+    background-color: #009846;
+}
+
+#btn-cancelar {
+    background-color: #e00000;
+}
+
+#btn-cancelar:hover {
+    background-color: #ff0000;
+}
+
+.content {
+    padding-top: 12px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #788199;
+    padding: 18px;
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+ol li.finalizado {
+    text-decoration: line-through;
+    color: red;
+}
+
+ol li:hover {
+    cursor: pointer;
+}
